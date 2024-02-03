@@ -1,6 +1,13 @@
+body{
+  font-family: Georgia, serif;
+
+}
 .container {
+  font-family: 'Candal', sans-serif;
   height: 300px;
   position: relative;
+  min-height: 400px;
+  min-height: 400px;
 }
 
 .center {
@@ -9,9 +16,19 @@
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
   font-size: 40px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 30px;
+  border:10px solid white;
+  color:white;
+
+}
+#socials{
+  position: absolute;
+  bottom: 0;
+  font-size:20px;
+  font-weight:bold;
+  padding:5px;
 }

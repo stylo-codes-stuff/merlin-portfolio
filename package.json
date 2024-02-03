@@ -13,7 +13,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "yarn parcel src/index.html"
+    "dev": "yarn parcel src/index.html --no-cache"
   },
   "dependencies": {
     "@angular/cli": "^17.0.10",
